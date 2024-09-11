@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <style>
+      body {
+        margin-top: 0;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 80px;
+        font-family: "Times New Roman", Times, serif !important;
+    font-size: 18px;
+    line-height: 34px;
+
+}
+        
+      .navbar{
+display: flex;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+      }
+
+       .nav2 {
+        margin: 30px;
+      } 
+      .nav2 a {
+        text-decoration: none;
+        color: grey;
+      }
+      .section2 {
+        background-image: url(./tm-sigma-00.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        margin-top: 0;
+        
+      }
+      .sec2{
+        text-align: center;
+         position:relative;
+        top: 90px;
+       
+      }
+      
+
+      
+      
+      
+      .Red {
+        background-color: rgb(235, 23, 23);
+        padding: 8px;
+        opacity: 0.7;
+        
+        height: 50px;
+        width: 180px;
+      }
+      .green {
+        background-color: hwb(120 0% 50%);
+        padding: 8px;
+        opacity: 0.7;
+        height: 50px;
+        width: 180px;
+      }
+
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      gap: 0;
+    }
+
+    .two {
+      /* width: 100vw; */
+      width: 100%;
+      display: grid;
+      grid-template-areas:
+        "img8 img8 img9"
+        "img8 img8 img10";
+    }
+
+    .img8 {
+      grid-area: img8;
+
+    }
+
+    .img9 {
+      grid-area: img9;
+
+
+    }
+
+    .img10 {
+      grid-area: img10;
+
+    }
+     img{
+      width: 100%;
+      height: 100%;
+    }
+    .row .img1{
+      background-color: white;
+      padding: 40px;
+      
+    }
+    .row .img2{
+      background-color: rgb(214, 207, 207);
+      padding: 40px;
+      
+    } 
+    .row .img3{
+      background-color: rgb(160, 151, 151);
+      padding: 30px;
+    
+    }
+    .row .img4{
+      background-color: grey;
+      padding: 40px;
+      
+    }
+    .row {
+      text-align: center;
+    }
+      
+      .sec5 h3 {
+      text-align: center;
+      padding-top: 60px;
+        
+        
+        
+        
+      }
+      .sec5 p{
+        text-align: center;
+        height: 200px;
+        width: 100%;
+
+        /* top: 0; */
+        /* margin-top: 20px; */
+        
+
+      }
+      .sec5{
+        background-image: url(./tm-sigma-00.jpg);
+        background-size: cover;
+      
+       
+      }
+      
+      .column {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+       .section6{
+       
+        font-family: "Times New Roman", Times, serif;
+         border: 5px solid white; 
+         width: 100%;
+        
+        
+        
+        
+       } 
+      .b1{
+       
+       font-size: 16px;
+        background-color: #e2dcdc;
+        line-height: 1.5;
+        height: 200px;
+        padding: 40px;
+        
+      }
+      .b2{
+       
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #999;
+        height: 200px;
+        padding: 40px;
+       
+      }
+      .b3{
+        /* font-size: 16px; */
+        /* grid-area: b3; */
+        line-height: 1.5;
+        background-color: #666;
+        height: 200px;
+        padding: 40px;
+        font-size:16px ;
+        
+      }
+      .b4{
+        /* grid-area: b4; */
+        line-height: 1.5;
+        font-size: 16px;
+        background-color:#EBE;
+        height: 200px;
+        padding: 40px;
+       
+      }
+      .b5{
+        /* grid-area: b5; */
+        line-height: 1.5;
+        font-size: 16px;
+        background-color: #92c4F8;
+        height: 200px;
+        padding: 40px;
+      }
+      .b6{
+        /* grid-area: b6; */
+        line-height: 1.5;
+        /* font-size: 16px; */
+        background-color: #A52;
+        height: 200px;
+        padding: 50px;
+        
+      }
+      .b7{
+        /* grid-area: b7; */
+        line-height: 1.5;
+        /* font-size: 16px; */
+        background-color: #28B;
+        height: 220px;
+        padding: 50px;
+       
+      }
+      .b8{
+        
+        line-height: 1.5;
+        
+        background-color: #496;
+        height: 220px;
+        padding: 50px;
+       
+      }
+      .b9{
+        
+        line-height: 1.5;
+        
+        background-color: #A4A430;
+        height: 200px;
+        padding: 50px;
+       
+      }
+      .b10{
+        background-image: url(./tm-sigma-00.jpg);
+        background-size:cover;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 16px;
+       height:200px;
+       width:100%;
+       padding: 50px;
+       
+        
+
+      }
+      
+     .button1{
+      background-color: mediumblue;
+      color: white;
+      padding: 10px;
+      width:200px;
+     
+     }
+     .button2{
+      background-color: red;
+      color: white;
+      padding: 10px;
+      width: 200px;
+      /* margin-bottom: 80px; */
+     
+     }
+     
+     
+     
+     .section8{
+     display: flex;
+     justify-content: space-between;
+     
+     line-height: 45px;
+    
+     }
+
+     .section8 button{
+      background-color: rgb(28, 173, 86);
+      padding: 8px;
+      margin-bottom: 20px;
+      width: 180px;
+      
+     }
+
+     .section8 button:hover{
+     opacity: 0.6;
+    cursor: pointer
+
+     }
+    
+     
+    
+      footer{
+        display: flex;
+        justify-content: space-between;
+      }
+      select {
+        width: 380px;
+        
+        padding: 10px;
+    }
+    select:focus {
+        min-width: 380px;
+        width: auto;}
+        
+        
+        @media screen and (max-width:598) {
+          .nav{
+           display: block;
+           
+           
+
+          }
+          .nav2{
+            display: block;
+          margin: 0px;
+            word-spacing: 5px;
+            
+          }
+          .section2 p{
+           text-align: center;
+          }
+          .row {
+            display: block;
+            width: 100%;
+          }
+          .two{
+            display: block;
+           
+          }
+          .two img{
+            vertical-align: middle;
+          }
+         
+          
+         
+       
+      }
+      @media screen and (max-width:768) and (min-width:900){
+         .section6 .b7{
+          height: 100%;
+          line-height: 34px;
+        }
+        input{
+          size: 80;
+
+        }
+      }
+    
+      
+    </style>
+  </head>
+  <body>
+    <p id="gototop"></p>
+    
+    <nav class="nav ">
+      <div class="nav1">
+        <h3><b>Sigma<b></h3>
+        <p>Gallery built on Bootstrap 4.0</p>
+       </div> 
+      <nav class="navbar navbar-light ">
+        <div class="container-fluid navbar-expand-xl">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#target" aria-controls="navbarToggleExternalContent"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+      <div class="collapse navbar-collapse" id="target">
+      <div class="nav2" id="target">
+        <a href="Home">Home</a>
+        <a href="Gallery">Gallery</a>
+        <a href="About">About</a>
+        <a href="Contact">Contact</a>
+        <a href="External">External</a> 
+      </div>
+      </div>
+    </div>
+    </nav>
+  
+</nav>
+  
+
+    <hr >
+
+    <div class="section2">
+      <div class="sec2">
+        
+        <h1>Bootstrap 4.0 Theme</h1>
+        <p>
+          Sigma is Free Bootstrap 4 (Alpha 2) Theme Designed for Metro-style
+          <br />Grid gallery. Download ,Modify and Use this <br>Layout for your  websites
+        </p>
+        <span >
+          <button class="Red mb-4">Our Gallery</button>
+          <button class="green">Learn More</button>
+        </span>
+      </div>
+    </div>
+
+
+
+    
+      <div class=" container-fluid d-lg-grid d-sm-block">
+        <div class="row gx-0 ">
+          <div class="img1  col-lg-3 col-md-6">
+            
+            <i class="fa fa-power-off" aria-hidden="true" style="font-size:160px"></i>
+            <h3>Design</h3>
+            <p> 
+              Preasent lorem dui ,suscipit eu volutpat id, sollicitudin ut mi.
+              present ornare massa vehicula.
+            </p>
+          </div>
+          <div class="img2   col-lg-3 col-sm-12 col-md-6">
+            <i class="fa fa-bolt" style="font-size: 180px;"></i>
+            <h3>Implement</h3>
+            <p>
+              Preasent lorem dui ,suscipit eu volutpat id, sollicitudin ut mi.
+              present ornare massa vehicula.
+            </p>
+          </div>
+          <div class="img3   col-lg-3 col-sm-12 col-md-6">
+            <i class="fa fa-thumbs-up"  style="font-size:180px;"></i>
+            <h3>Enhance</h3>
+            <p>
+              Preasent lorem dui ,suscipit eu volutpat id, sollicitudin ut mi.
+              present ornare massa vehicula.
+            </p>
+          </div>
+          <div class="img4  col-lg-3 col-sm-12 col-md-6">
+            <p><i class="fa fa-bar-chart" style="font-size:150px"></i></p>
+            <h3>Monitor</h3>
+            <p>
+              Preasent lorem dui ,suscipit eu volutpat id, sollicitudin ut mi.
+              present ornare massa vehicula.
+            </p>
+        </div>
+      </div>
+        <div class="row gx-0 ">
+          <div class="img5  col-lg-4  col-md-6 col-sm-12 ">
+          <img src="./tm-sigma-01.jpg" alt="">
+        </div>
+          <div class="img6   col-lg-4  col-md-6 col-sm-12">
+            <img src="./tm-sigma-02.jpg" alt="">
+          </div>
+          <div class="img7   col-lg-4 col-md-12 col-sm-12">
+            <img src="./tm-sigma-03.jpg" alt="">
+          </div>
+        </div>
+        
+    
+        <div class="two row gx-0  ">
+          <div class="img8 ">
+            <img src="./tm-sigma-04.jpg" alt="">
+          </div>
+          <div class="img9 ">
+            <img src="./tm-sigma-05.jpg" alt="">
+          </div>
+          <div class="img10 ">
+            <img src="./tm-sigma-06.jpg" alt="">
+          </div>
+        </div>
+    
+        <div class="row gx-0">
+          <div class="img11 col-lg-6  col-md-6 col-sm-12 bg-info ">
+            <img src="./tm-sigma-07.jpg" alt="">
+          </div>
+          <div class="img12 col-lg-6 col-md-6 col-sm-12 bg-success   ">
+            <img src="./tm-sigma-08.jpg" alt="">
+          </div>
+        </div>
+        <div class="row gx-0">
+          <div class="img13 col-lg-3 col-md-6 bg-warning col-sm-12">
+            <img src="./tm-sigma-01.jpg" alt="">
+          </div>
+          <div class="img14 col-lg-3 col-md-6 bg-success col-sm-12 ">
+            <img src="./tm-sigma-02.jpg" alt="">
+          </div>
+          <div class="img15 col-lg-3 col-md-6 bg-danger col-sm-12 ">
+            <img src="./tm-sigma-03.jpg" alt="">
+          </div>
+          <div class="img16 col-lg-3 col-md-6 bg-info col-sm-12 ">
+            <img src="./tm-sigma-04.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    
+    <div class="sec5 col-sm-12  col-md-12">
+      <h3>About Us</h3>
+      <p>
+        sed elit elit,dictum eeu turpis non, fringila efficitur ipsum, phasellus
+        ultrices, nunc et tempus Ports,<br>
+        tellus purus elementum ex,volutpat lobortis orci dolor in tortor.
+      </p>
+    </div>
+    
+    
+      <div class="section6 row w-100%">
+
+        <div class="b1 col-lg-4  col-md-6 h-100 ">
+          <h3>01 Design</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa vehicula.
+          </p>
+        </div>
+        <div class="b2 col-lg-4 col-md-6 h-100 ">
+          <h3>02 Coding</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa vehicula.
+          </p>
+        </div>
+        <div class="b3 col-lg-4  h-100">
+          <h3>03 Mobile Ready</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa vehicula.
+          </p>
+        </div>
+     
+        <div class="b4 col-lg-6 col-md-6 col-sm-12 h-100">
+          <h3>Left Column</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa vehicula.
+          </p>
+  
+          <button class="button1">Read Detail</button>
+        </div>
+        <div class="b5 col-lg-6 col-md-6 col-sm-12 h-75">
+          <h3>Right Column</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa vehicula.
+          </p>
+          <button class="button2">Learn More</button>
+        </div>
+        
+        <div class="b6 col-lg-3  col-sm-12 h-100">
+          <h3>Our Team</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa<br> vehicula.
+          </p>
+        </div>
+        <div class="b7 col-lg-3 col-md-6 col-sm-12 h-100 "> 
+          <h3>History</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa <br>vehicula.
+          </p>
+        </div>
+        <div class="b8 col-lg-3 col-md-6 col-sm-12 h-100 ">
+          <h3>Management</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa <br>vehicula.
+          </p>
+        </div>
+        <div class="b9 col-lg-3 col-md-12 col-sm-12 h-75 ">
+          <h3>Career</h3>
+          <p>
+            Praesent lorem dui, suscipit eu volutpat id, sollicitudin ut mi.
+            Praesent ornare massa <br>vehicula.
+          </p>
+  
+      </div> 
+      <div class="b10 col-lg-12 col-md-6 col-sm-12 h-100">
+        <h3>Contact</h3>
+          <p>You may contact TemplateMo if you have any question. Suspendisse dolor purus, malesuada ut luctus quis, consectetur vel ante. Integer a pulvinar orci.</p>
+        </div>
+      </div>
+      
+    
+    <div class="section8 row-col-3 d-sm-block d-lg-flex g-5 ">
+      <div class="sec8a  col-sm-12 col-lg-4  ">
+      <label for=text>Your Name</label><br>
+      <input   type="text" id="text" name="text"  size="25"
+      placeholder="Write a full name"><br>
+<label for="email">Your E-Mail</label><br>
+<input  id="email" name="email" placeholder="Enter your email" size="25"><br>
+ <div class="Budget"> <label for="Your Badget">your Budget</label><br>
+<select class="Budget w-75" name="Your Badget" id="Your Badget"  width="10px" ><br>
+  <option value="$500">$500  </option>
+  <option value="$1000">$1000  </option>
+  <option value="$1500">$1500  </option></select></div>
+</div>
+
+
+
+   <div class="sec8b col-sm-12 col-lg-4 ">
+    <label for="subject">Subject</label><br>
+    <input  type="text" placeholder="Subject" size="25"><br>
+    <label for="textarea">Your Message</label><br>
+    <textarea name="textarea" id="textarea" rows="2" cols="33" placeholder="Write a message"></textarea><br>
+    <input  type="checkbox" id="checkbox" name="checkbox" size="25">
+    <label for="checkbox">I am not a robot</label> <br>
+   <button >
+    Submit
+   </button> 
+  </div>
+   
+
+   <div class="sec8c col-sm-12  col-lg-4">
+   <h2>Our Address</h2>
+    <p>Suspendisse dolor purus, malesuada ut luctus quis, consectetur vel ante. Integer a pulvinar orci, eget sagittis enim.</p>
+
+    <div> <i class="fa fa-envelope-o" style="font-size:32px"></i> &nbsp;&nbsp;&nbsp; Email: info@company.com </div>
+  <div><i class="contact-icon fa fa-phone" style="font-style:100px"></i>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Phone: 070-070-0880</div>
+ 
+
+
+   </div> 
+</div> 
+
+ 
+ 
+  <hr>
+  <footer class="footer ">
+    <p>Copyright © 2016 Sigma Bootstrap 4 Theme | design: <a href="Copyright © 2016 Sigma Bootstrap 4 Theme | design: templatemo">templatemo</a></p>
+    <p><a href="#gototop">Go to Top</a></p>
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+
+</body>
+</html>
